@@ -1,4 +1,4 @@
-# Learn-Python-
+#LearnPython
 ##Python学习：基础到实践
 ###习题一（ex1.py）
 需求:将学生成绩根据标准进行0分级。
