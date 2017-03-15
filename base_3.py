@@ -36,3 +36,9 @@ for num in lim[:3]:
     print (num)
 lim_copy =lim[:]
 print(lim_copy)
+
+dimen = (200,50)    #元组的基本使用
+print (dimen[0])
+print (dimen[1])
+for dimens in dimen:
+    print (dimens)
