@@ -1,7 +1,7 @@
 # -*- coding: utf-8  -*-
 """
 Created on Tue Mar 2017
-@author jiang
+@author:jiang
 """
 bicycles = ['treak','cannondale','redline','specialized']   #定义列表
 print (bicycles)        #打印输出
