@@ -8,7 +8,7 @@ print (bicycles)        #打印输出
 print (bicycles[0])     #打印输出列表第一个元素,注意索引从0开始
 print (bicycles[-1])    #打印输出倒数第一个元素
 
-message = 'My first bicycles was a ' + bicycles[0].title() + '.'    #领过结合字符串操作
+message = 'My first bicycles was a ' + bicycles[0].title() + '.'    #字符串结合操作
 print (message)
 
 bicycles[0] = 'ducati'  #修改列表元素    
