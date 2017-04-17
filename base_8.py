@@ -29,3 +29,15 @@ with open(write_path,'w') as write_object:
 """附加文件"""
 with open(write_path,'a') as write_ob:
     write_ob.write("This is a test documents!\n")
+    
+"""存储文件"""
+import json
+
+numbers = [1,2,3,4,5,6,6,7]
+filename = 'numbers.json'           #指定存储文件的名称，同时生成numbers.json 文件
+with open(filename,'w') as f_obj:   #open()使用写入模式
+    json.dump(numbers,f_obj)        #json.dump有两个实参，要存储的数据和用于存储数据的文件对象
+
+with open (filename) as f_suj:
+    number = json.load(f_suj)
+print (number)
